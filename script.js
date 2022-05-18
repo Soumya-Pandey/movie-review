@@ -67,9 +67,9 @@ form.addEventListener("submit", (e) => {
 const moon = document.getElementById('moon').addEventListener('click', ()=>{
   document.body.classList.toggle('dark-mode');
   if(document.body.classList.contains('dark-mode')){
-    document.getElementById('moon').src = "/Users/soumyapandey/Desktop/myprojgit/images/outline_wb_sunny_white_24dp.png";
+    document.getElementById('moon').src = "/Users/soumyapandey/Desktop/myprojgit/images/sun-3337.svg";
   }
   else{
-    document.getElementById('moon').src = "/Users/soumyapandey/Desktop/myprojgit/images/outline_dark_mode_black_24dp.png";
+    document.getElementById('moon').src = "/Users/soumyapandey/Desktop/myprojgit/images/dark-mode-6682 (1).svg";
   }
 });
