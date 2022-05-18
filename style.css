@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 :root {
-  --primary-color: #482175;
-  --secondary-color: #297f8c;
+  --primary-color: #572f85;
+  --secondary-color: #43a0ae;
+  --overview-color: rgb(244, 208, 251)
+}
+
+.dark-mode{
+  --primary-color: #040009;
+  --secondary-color: #0f0352;
+  --overview-color: #07585b;
 }
 
 * {
@@ -51,6 +58,12 @@ header h1 {
 .search:focus {
   outline: none;
   background-color: var(--primary-color);
+}
+
+#moon{
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 50px;
 }
 
 main {
@@ -107,7 +120,7 @@ main {
 }
 
 .overview {
-  background-color: rgb(244, 208, 251);
+  background-color: var(--overview-color);
   padding: 2rem;
   position: absolute;
   left: 0;
